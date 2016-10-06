@@ -8,8 +8,8 @@ public class Boletin2_10 {
 
     
     public static void main(String[] args) {
-        //metemos una cantidad entera y nos la divide entre billetes de 100, 20, 5 y monedas.
-        int cantidadB100,cantidadB20, cantidadB5,cantidad, monedas;
+        //metemos una cantidad entera y nos la divide entre billetes de 100€, 20€, 5€ y monedasde 1€.
+        int cantidadB100,cantidadB20, cantidadB5,cantidad, monedas; 
         cantidad=Integer.parseInt(JOptionPane.showInputDialog("Introduzca el dinero que tiene"));
         cantidadB100=cantidad/100;
         cantidadB20=cantidad%100/20;
